@@ -1,35 +1,40 @@
 # QiOn Signature Generator
 
-Static page. No build step, no backend.
+Live site: https://oppa1990.github.io/qion-signature/
+Repository: https://github.com/OPPA1990/qion-signature
 
-## Publish on GitHub Pages
+## How to update the live site
 
-1. Create a new repository, e.g. `qion-signature`.
-2. Upload everything in this folder to the repository root:
-   - `index.html`
-   - `signature-assets/` (all six PNGs)
-3. Repository Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder `/ (root)` → Save.
-4. After a minute the site is live at `https://<your-user>.github.io/qion-signature/`.
-5. Share that link with the team.
+1. Unzip this download.
+2. Open https://github.com/OPPA1990/qion-signature
+3. Click **Add file** → **Upload files**.
+4. Drag in **index.html**, **README.md** and the whole **signature-assets** folder.
+   GitHub replaces files with the same name automatically.
+5. Click **Commit changes**.
+6. Wait 1–2 minutes (check the **Actions** tab for a green tick).
+7. Open the live site and hard-refresh: **Cmd+Shift+R** (Mac) or **Ctrl+Shift+R** (Windows).
 
-Signatures copied from the live link point their images at
-`https://<your-user>.github.io/qion-signature/signature-assets/`, so keep the repository public
-and never rename or delete those files once people are using them.
+## After updating
 
-## Updating
+- Everyone must make their signature again from the site to get the new layout
+  (wider format, phone field, WhatsApp option, certification marks).
+- Image-only changes (same filename) update existing signatures automatically.
+- Never rename or delete files in signature-assets while people are using them.
+- Keep the repository **public**, or the images stop showing in emails.
 
-- Replace a PNG with the same filename → every existing signature updates automatically.
-- Changing the layout or copy → people need to generate and paste their signature again.
+## What's in signature-assets
 
-## Files
-
-| File | Size in signature |
+| File | Shown at |
 | --- | --- |
-| qion-logo.png | 88 × 34 |
-| award-2025.png | 16 × 18 |
-| award-2026.png | 16 × 18 |
+| qion-logo.png | 96 × 35 |
+| award-2025.png | 17 × 20 |
+| award-2026.png | 17 × 20 |
 | e1-partner.png | 62 × 14 |
-| icon-linkedin.png | 14 × 14 |
-| icon-instagram.png | 14 × 14 |
+| icon-linkedin.png | 13 × 13 |
+| icon-instagram.png | 13 × 13 |
+| icon-whatsapp.png | 13 × 13 (official WhatsApp logo) |
+| mark-tuv-sud.png | 18 × 18 |
+| mark-ce.png | 18 × 13 |
+| mark-ul.png | 18 × 18 |
 
-All PNGs are exported at 2–4× for sharp display on high-resolution screens.
+Help: luismiguel.p@qiontech.com
